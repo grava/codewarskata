@@ -1,13 +1,23 @@
 ﻿using System.Collections;
 using System.Security.Cryptography;
 using System.Collections.Generic;
+using System.Text;
 
 public class Kata
 {
     public static void Main() {
         DuplicateEncode("Success");
     }
-  public static string DuplicateEncode(string word)
+
+    public static string DuplicateEncode(string word) {
+        string res = "";
+        var builder = new StringBuilder();
+        foreach (char c in word.ToLower().ToCharArray()) {
+            builder.Append(word.Count(x => x == c) > 1 ? ')' : '(');
+        }
+        return builder.ToString();
+    }
+  public static string OldDuplicateEncode(string word)
   {
     char[] arr = word.ToLower().ToCharArray();
     Dictionary<char,int> keys = new Dictionary<char,int>();
