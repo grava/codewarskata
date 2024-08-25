@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using NUnit.Framework;
 
 [TestFixture]
-public class Tests
+public class SquareNumTests
 {
   private static IEnumerable<TestCaseData> sampleTestCases
   {
