@@ -30,5 +30,4 @@ jobs:
       uses: dorny/test-reporter@v1.9.1
       with:
         name: test-results
-        path: /Katas/test/TestResults/test-results.trx
         reporter: dotnet-trx
