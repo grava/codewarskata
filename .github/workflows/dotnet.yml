@@ -48,7 +48,7 @@ jobs:
           curl https://deepsource.io/cli | sh
     
         # From the root directory, run the report coverage command
-          ./bin/deepsource report --analyzer test-coverage --key python --value-file **/TestResults/*cobertura*.xml
+          ./bin/deepsource report --analyzer test-coverage --key csharp --value-file **/coverage.cobertura.xml
     
       env:
         DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
