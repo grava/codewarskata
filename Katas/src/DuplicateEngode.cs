@@ -5,7 +5,7 @@ namespace Kata
         public static string DuplicateEncode(string word)
         {
             var builder = new StringBuilder();
-            foreach (char c in word.ToLower().ToCharArray())
+            foreach (char c in word.ToLower())
             {
                 builder.Append(word.Count(x => x == c) > 1 ? ')' : '(');
             }
