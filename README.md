@@ -1,1 +1,2 @@
 [![DeepSource](https://app.deepsource.com/gh/grava/codewarskata.svg/?label=code+coverage&show_trend=true&token=cBOLKM6PB88834aL-6hLenm2)](https://app.deepsource.com/gh/grava/codewarskata/)
+![MAIN CI](https://github.com/grava/codewarskata/actions/workflows/dotnet.yml/badge.svg?branch=main)
