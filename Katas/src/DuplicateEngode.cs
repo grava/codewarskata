@@ -4,7 +4,6 @@ namespace Kata
     {
         public static string DuplicateEncode(string word)
         {
-            string res = "";
             var builder = new StringBuilder();
             foreach (char c in word.ToLower().ToCharArray())
             {
