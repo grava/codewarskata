@@ -46,9 +46,10 @@ jobs:
     
         # Install deepsource CLI
           curl https://deepsource.io/cli | sh
+          cp **/coverage.cobertura.xml ./coverage.xml
     
         # From the root directory, run the report coverage command
-          ./bin/deepsource report --analyzer test-coverage --key csharp --value-file **/coverage.cobertura.xml
+          ./bin/deepsource report --analyzer test-coverage --key csharp --value-file ./coverage.xml
     
       env:
         DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
