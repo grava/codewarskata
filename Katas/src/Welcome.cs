@@ -1,5 +1,4 @@
-namespace Kata
-{
+namespace Kata;
 
     public class Welcome
     {
@@ -9,4 +8,3 @@ namespace Kata
             return DB.Dict.ContainsKey(language) ? DB.Dict[language] : DB.Dict[defaultLanguage];
         }
     }
-}

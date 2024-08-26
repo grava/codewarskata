@@ -3,7 +3,7 @@ namespace Kata.Tests;
 [TestFixture]
   public class StringEndsWithTests
   {
-    private static object[] sampleTestCases = new object[]
+    private static readonly object[] sampleTestCases = new object[]
     {
       new object[] {"samurai", "ai", true},
       new object[] {"sumo", "omo", false},

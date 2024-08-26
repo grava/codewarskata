@@ -1,8 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Kata
-{
+namespace Kata;
     public class VowelCount
     {
         public static int GetVowelCount(string str)
@@ -18,4 +17,3 @@ namespace Kata
             return vowelCount;
         }
     }
-}

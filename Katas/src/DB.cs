@@ -1,7 +1,7 @@
 namespace Kata;
 public static class DB
 {
-    private static Dictionary<string, string> dict = new Dictionary<string, string>{
+    private static readonly Dictionary<string, string> dict = new Dictionary<string, string>{
               {"english", "Welcome"}
             , {"czech", "Vitejte"}
             , {"danish", "Velkomst"}
