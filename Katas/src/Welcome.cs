@@ -24,10 +24,7 @@ namespace Kata
 
         public static Dictionary<string, string> Dict
         {
-            get
-            {
-                return dict;
-            }
+            get => dict;
         }
     }
 
