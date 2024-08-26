@@ -1,6 +1,7 @@
 
 using NUnit.Framework;
 using System;
+namespace Kata.Tests;
 
     [TestFixture]
     public class WelcomeTests

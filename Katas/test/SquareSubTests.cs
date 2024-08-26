@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using NUnit.Framework;
 
+namespace Kata.Tests;
+
 [TestFixture]
 public class SquareNumTests
 {

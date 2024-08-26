@@ -1,3 +1,5 @@
+namespace Kata.Tests;
+
 [TestFixture]
 public class NthSeriesTests
 {
