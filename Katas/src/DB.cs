@@ -1,8 +1,7 @@
-namespace Kata
+namespace Kata;
+public static class DB
 {
-    public static class DB
-    {
-        private static Dictionary<string, string> dict = new Dictionary<string, string>{
+    private static Dictionary<string, string> dict = new Dictionary<string, string>{
               {"english", "Welcome"}
             , {"czech", "Vitejte"}
             , {"danish", "Velkomst"}
@@ -22,9 +21,8 @@ namespace Kata
             , {"welsh", "Croeso"}
             };
 
-        public static Dictionary<string, string> Dict
-        {
-            get => dict;
-        }
+    public static Dictionary<string, string> Dict
+    {
+        get => dict;
     }
 }

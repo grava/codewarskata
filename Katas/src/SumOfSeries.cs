@@ -1,5 +1,4 @@
-namespace Kata
-{
+namespace Kata;
     public class SumOfSeries
     {
         public static string seriesSum(int n)
@@ -12,4 +11,3 @@ namespace Kata
             return result.ToString("0.00");
         }
     }
-}

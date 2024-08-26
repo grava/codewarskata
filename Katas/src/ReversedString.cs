@@ -1,5 +1,4 @@
-namespace Kata
-{
+namespace Kata;
     public class ReversedString
     {
         public static string Solution(string str)
@@ -9,4 +8,3 @@ namespace Kata
             return new string(charArray);
         }
     }
-}

@@ -1,4 +1,4 @@
-namespace Kata{
+namespace Kata;
     public class SquarenSum {
         public static int SquareSum(int[] numbers) {
             int result =0;
@@ -8,4 +8,3 @@ namespace Kata{
             return result;
         }
     }
-}
