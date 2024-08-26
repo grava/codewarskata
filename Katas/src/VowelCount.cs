@@ -7,7 +7,7 @@ namespace Kata
     {
         public static int GetVowelCount(string str)
         {
-            var vowels = new ArrayList(new char[] { 'a', 'e', 'i', 'o', 'u' });
+            var vowels = new ArrayList(new[]{ 'a', 'e', 'i', 'o', 'u' });
 
             int vowelCount = 0;
 
